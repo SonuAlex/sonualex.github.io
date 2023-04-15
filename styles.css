@@ -257,6 +257,7 @@ span {
 
 .portfolio-box img {
     width: 100%;
+    height: 25rem;
     transition: .5s ease;
 }
 
