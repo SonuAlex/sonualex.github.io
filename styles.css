@@ -315,6 +315,17 @@ span {
     margin-bottom: 3rem;
 }
 
+.contact h3 {
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+.altSpan {
+    color: red;
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
 .contact form {
     max-width: 70rem;
     margin: 1rem auto;

@@ -7,6 +7,22 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 };
 
+// ================== onClick function =============== //
+var subject = document.getElementById('subject').value;
+
+function newTab() {
+    window.open(
+        `https://mail.google.com/mail/u/0/?fs=1&to=instructable03@gmail.com&su=Contact from Portfolio&body=Full Name:%0d%0aPhone Number:%0d%0a%0d%0aBody:&bcc=&tf=cm`, '_blank'
+    );
+}
+
+// ================== Contact Me Submit Button =============== //
+// let SendMessage = document.querySelector('#sndMsg');
+
+// SendMessage.onclick = () => {
+//     window.location.href = "http://www.w3schools.com";
+// }
+
 // ================== scroll sections active link =============== //
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
